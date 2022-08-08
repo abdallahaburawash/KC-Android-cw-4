@@ -1,0 +1,35 @@
+public class Main
+{
+
+	public static void main(String[] args) {
+	    int y = 20;
+		System.out.println(totalGrade(98,94));
+        temperature(y);
+        forloop();
+    
+   
+}
+    public static int totalGrade(int num1, int num2){
+     return  num1 + num2;
+      
+    
+    }
+     
+    public static void temperature(int y){
+       if (y < 23){
+           System.out.println("cold");
+       }
+       else if (y >= 23){
+           System,out.println("hot");
+       }
+    }
+       
+       
+       
+       
+     public static void forloop(){
+     for (int x=0; x<10; x++);
+    System.out.println(x );
+     }
+}
+ 
